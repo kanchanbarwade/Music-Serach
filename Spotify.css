@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+
+
+.navbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #7952b3;
+    transition: 0.4s;
+}
+
+.container{
+    margin-top: 92px;
+    margin-left: 40px;
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+
+
+/* for navbar */
+
+.active-nav {
+    margin-left: 0;
+}
+
+header .song_side{
+    margin-left: 25%;
+}
+.wrapper .sidebar{
+    position: fixed;
+ width: 200px;
+ height: 100%;
+ background: #4b4276;
+ padding: 30px 0;
+
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+.wrapper .main_content{
+width: 100%;
+margin-left: 200px;
+}
